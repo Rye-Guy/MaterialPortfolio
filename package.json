@@ -4,7 +4,7 @@
   "description": "materialize.css demo",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+   "compile": "node-sass scss/main.scss css/style.css -w"
   },
   "repository": {
     "type": "git",
