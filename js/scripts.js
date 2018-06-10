@@ -1,3 +1,5 @@
+$(document).ready(function(){
+
 var didScroll;
 var lastScroll = 0;
 var d = 5; 
@@ -38,3 +40,8 @@ function hasScrolled(){
     //value is set to current scroll position on the page. 
     lastScroll = st;
 }
+
+//parallax initialization for materialize
+    $('.parallax').parallax();
+
+});

@@ -1,0 +1,18 @@
+header {
+    position: fixed;
+    top: 0;
+    transition: top 0.2s ease-in-out;
+    width: 100%;
+}
+
+.nav-up {
+    top: -65px;
+}
+
+.brand-logo{
+    padding-left: 20px !important;
+  }
+  
+  ul:not(.browser-default){
+    padding-right: 8px;
+}

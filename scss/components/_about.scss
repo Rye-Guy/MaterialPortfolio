@@ -1,0 +1,34 @@
+.about-heading{
+    text-align: center;
+}
+
+.about-section{
+    position: relative;
+    z-index: -1;
+    width: 100%;
+    height: 600px;
+}
+.about-image{
+    height: 700px;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 10%, 0% 90%);
+    background-image: url(../images/Remberant-lighting-nobkg.png);
+    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: 90px;
+}
+
+.about-paragraph{
+    position: absolute;
+    top: 365px;
+    float: right;
+    text-align: right;
+    width: 52%;
+    right: 0;
+    margin-right: 116px;
+}
+
+.about-name-heading{
+    font-size: 42px;
+    line-height: 2;
+}
