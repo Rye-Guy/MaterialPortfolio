@@ -2,9 +2,7 @@ body {
   padding-top: 40px; }
 
 main {
-  margin-top: 72px;
-  position: relative;
-  z-index: -1; }
+  margin-top: 72px; }
 
 .border-divider {
   border: 2px solid;
@@ -14,8 +12,7 @@ main {
   opacity: .8;
   margin-top: 24px;
   margin-bottom: 24px;
-  position: relative;
-  z-index: -1; }
+  position: relative; }
 
 .heading-secondary {
   text-align: center; }
@@ -25,6 +22,9 @@ main {
 
 .border-fix {
   margin-top: 0 !important; }
+
+.height-fix {
+  height: 185px !important; }
 
 header {
   position: fixed;
@@ -43,6 +43,9 @@ ul:not(.browser-default) {
 
 .parallax-container {
   height: 100vh; }
+
+header {
+  z-index: 100; }
 
 .about-section {
   position: relative;
@@ -80,7 +83,18 @@ ul:not(.browser-default) {
 
 .row-cards {
   display: flex;
-  justify-content: space-evenly; }
+  justify-content: space-evenly;
+  flex-wrap: wrap; }
 
 .card {
   width: 336px; }
+
+.page-footer {
+  margin-top: 100px; }
+
+.footer-icons {
+  height: 60px; }
+
+.footer-icons-row {
+  display: flex;
+  justify-content: space-evenly; }
