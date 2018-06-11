@@ -121,3 +121,25 @@ header {
 .footer-icons-row {
   display: flex;
   justify-content: space-evenly; }
+
+.hover-text {
+  text-align: center;
+  color: transparent;
+  margin: 0;
+  transition: ease all 1s;
+  animation: hideText 1s; }
+
+.hover-text:hover {
+  animation: reveal 1s; }
+
+@keyframes reveal {
+  0% {
+    color: transparent; }
+  100% {
+    color: black; } }
+
+@keyframes hideText {
+  0% {
+    color: black; }
+  100% {
+    color: transparent; } }
