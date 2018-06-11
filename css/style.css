@@ -75,6 +75,29 @@ header {
   right: 0;
   margin-right: 116px; }
 
+.about-image-mobile {
+  display: none; }
+
+@media screen and (max-width: 992px) {
+  .about-image {
+    display: none; }
+  .about-paragraph {
+    width: 80%;
+    text-align: left;
+    position: initial;
+    margin: 0 auto;
+    float: none; }
+  .about-image-mobile {
+    background-image: url(../images/Remberant-lighting.jpg);
+    clip-path: circle();
+    height: 250px;
+    display: block;
+    background-size: 270px;
+    background-position-x: center; }
+  .about-section {
+    position: initial;
+    height: initial; } }
+
 .carousel {
   perspective: 330px;
   text-align: center;
