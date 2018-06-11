@@ -2,7 +2,9 @@ body {
   padding-top: 40px; }
 
 main {
-  margin-top: 72px; }
+  margin-top: 72px;
+  position: relative;
+  z-index: -1; }
 
 .border-divider {
   border: 2px solid;
@@ -75,3 +77,10 @@ ul:not(.browser-default) {
   text-align: center;
   font-size: 28px;
   line-height: 2.24; }
+
+.row-cards {
+  display: flex;
+  justify-content: space-evenly; }
+
+.card {
+  width: 336px; }

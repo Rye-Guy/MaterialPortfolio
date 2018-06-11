@@ -4,6 +4,8 @@ body {
 
 main{
     margin-top: 72px;
+    position: relative;
+    z-index: -1;
 }
 
 .border-divider{
