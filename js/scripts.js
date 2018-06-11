@@ -44,4 +44,6 @@ function hasScrolled(){
 //parallax initialization for materialize
     $('.parallax').parallax();
 
+//carousel initialization for materialize
+    $('.carousel').carousel();
 });

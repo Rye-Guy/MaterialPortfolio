@@ -11,7 +11,18 @@ main {
   border-radius: 8px;
   opacity: .8;
   margin-top: 24px;
-  margin-bottom: 24px; }
+  margin-bottom: 24px;
+  position: relative;
+  z-index: -1; }
+
+.heading-secondary {
+  text-align: center; }
+
+.u-nomargin {
+  margin-bottom: -64px; }
+
+.border-fix {
+  margin-top: 0 !important; }
 
 header {
   position: fixed;
@@ -28,8 +39,8 @@ header {
 ul:not(.browser-default) {
   padding-right: 8px; }
 
-.about-heading {
-  text-align: center; }
+.parallax-container {
+  height: 100vh; }
 
 .about-section {
   position: relative;
@@ -46,6 +57,10 @@ ul:not(.browser-default) {
   background-repeat: no-repeat;
   background-position-x: 90px; }
 
+.about-name-heading {
+  font-size: 42px;
+  line-height: 2; }
+
 .about-paragraph {
   position: absolute;
   top: 365px;
@@ -55,6 +70,8 @@ ul:not(.browser-default) {
   right: 0;
   margin-right: 116px; }
 
-.about-name-heading {
-  font-size: 42px;
-  line-height: 2; }
+.carousel {
+  perspective: 330px;
+  text-align: center;
+  font-size: 28px;
+  line-height: 2.24; }
