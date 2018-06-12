@@ -41,11 +41,27 @@ header {
 ul:not(.browser-default) {
   padding-right: 8px; }
 
+.modal {
+  max-height: 88%; }
+
 .parallax-container {
   height: 100vh; }
 
 header {
   z-index: 100; }
+
+.parallax-container .parallax img {
+  left: 50%;
+  width: 100%; }
+
+.parallax-content {
+  text-align: center;
+  -webkit-text-stroke: 1px;
+  color: white;
+  margin-top: 18%; }
+
+.main-header {
+  -webkit-text-stroke-color: black; }
 
 .about-section {
   position: relative;

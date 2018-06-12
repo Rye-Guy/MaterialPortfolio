@@ -16,20 +16,27 @@
         <div class="nav-wrapper">
             <a href="#" class="brand-logo">Logo</a>
               <ul id="nav-mobile" class="right hide-on-med-and-down">
-                <li><a href="#">About</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a data-target="modal1" class="waves-effect waves-light btn modal-trigger" href="#modal1">Contact</a></li>
+
               </ul>
             </div>
          </nav>
     </header>
     <div class="parallax-container">
-        <div class="parallax"><img src="images/header-parallax.jpg"></div>
+    <div class="parallax-content">
+      <h1 class="main-header">Focus on the Journey, Not the Destination</h1>
+            <button class="btn">Contact Me</button>
+    </div>
+        <div class="parallax"><img src="images/bright-bulb.jpg"></div>
     </div>
 
-     <main>
+     <main class="row">
+       <div>
+          
        <h2 class="heading-secondary">About Me</h2>
-        <div class="about-section">
+        <div class="about-section" id="about">
           <div class="about-image"></div>
           <div class="about-image-mobile"></div>
         <p class="about-paragraph"><span class="about-name-heading">Ryan Racioppo</span><br>Lorem ipsum dolor sit amet, ut sit omnium persius offendit, ei atqui antiopam vix, et percipit corrumpit laboramus mei. Nam atqui nihil an. Eos minim laboramus eu. Has id quas quidam lucilius, est ut dicam vocibus. Percipit recteque vix id, nam mutat pertinacia no. Integre euripidis assentior est et. Id vix assum electram, eam id dictas gloriatur disputando, quo congue iisque in.</p>
@@ -50,7 +57,7 @@
     </div>
   </div>
   <div class="border-divider border-fix"></div>
-  <div class="portfolio-section">
+  <div class="portfolio-section" id="portfolio">
     <h2 class="heading-secondary">Portfolio</h2>
   <div class="row-cards">
     <div class="card">
@@ -94,7 +101,12 @@
           </div>   
     </div>              
   </div>
+
+  
+</div>
+
 </main>
+
 <footer class="page-footer">
     <div class="container">
       <div class="row">
@@ -120,10 +132,53 @@
     <div class="footer-copyright">
       <div class="container">
       Ryan Racioppo
-      <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+      <a class="grey-text text-lighten-4 right" href="#!">June 2018</a>
       </div>
     </div>
   </footer>
+
+  <!--Contact Modal-->
+  <div id="modal1" class="modal">
+      <div class="modal-content">
+          <div class="row">
+              <form class="col s12" action="https://formspree.io/ryanracioppo95@gmail.com"
+              method="POST">
+                <div class="row">
+                    <div class="input-field col s6">
+                        <input id="last_name" type="text" class="validate">
+                        <label for="last_name">First Name</label>
+                      </div>
+                  <div class="input-field col s6">
+                    <input id="last_name" type="text" class="validate">
+                    <label for="last_name">Last Name</label>
+                  </div>
+                </div>
+             
+                <div class="row">
+                  <div class="input-field col s12">
+                    <input id="email" type="email" class="validate">
+                    <label for="email">Email</label>
+                  </div>
+                </div>
+
+
+                <div class="row">
+                    <div class="input-field col s12">
+                      <i class="material-icons prefix">mode_edit</i>
+                      <textarea id="icon_prefix2" class="materialize-textarea"></textarea>
+                      <label for="icon_prefix2">Message</label>
+                    </div>
+                  </div>
+
+                  <input class="btn" type="submit" value="Send">
+              
+              </form>
+            </div>
+      </div>
+      <div class="modal-footer">
+        <a href="#!" class="modal-close waves-effect waves-red btn-flat">Close</a>
+      </div>
+    </div>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="js/materialize.min.js"></script>
   <script src="js/scripts.js"></script>
