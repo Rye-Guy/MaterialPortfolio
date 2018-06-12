@@ -1,5 +1,5 @@
 <h1>A Material Design Portfolio</h1>
-<p>You can view it <a href="#">live here</a></p>
+<p>You can view it <a href="https://rye-guy.github.io/MaterialPortfolio/">live here</a></p>
 
 <h2>This Project Uses</h2> 
 <ul>
